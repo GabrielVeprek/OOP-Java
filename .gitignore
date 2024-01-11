@@ -103,8 +103,6 @@ cmake-build-*/
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
-# File-based project format
-*.iws
 
 # IntelliJ
 out/
@@ -277,10 +275,8 @@ fabric.properties
 ### Intellij+iml Patch ###
 # Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
 
-*.iml
 modules.xml
 .idea/misc.xml
-*.ipr
 
 ### Java ###
 # Compiled class file
@@ -325,7 +321,6 @@ replay_pid*
 
 ### macOS ###
 # General
-.DS_Store
 .AppleDouble
 .LSOverride
 
